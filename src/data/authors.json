@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/location/office-1.jpg",
+        "name": "Rumble Car Hub, Bangalore Vega Mall",
+        "title": "Instructions to reach: Vega City Mall Srinivas Industrial Estate No. 172/1, Dollar Layout, Stage 2, BTM 2nd Stage, Bengaluru, Karnataka 560076",
+        "longdesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "url":"#"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "assets/images/location/office-2.jpg",
+        "name": "Rumble Car Hub, VR Mall, Bangalore",
+        "title": "Instructions to reach: Once you reach the mall, proceed towards F1 pillar in P2 parking in the basement 2.",
+        "shortdesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+        "longdesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-twitter",
+                "title":"Twitter",
+                "url":"#"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "assets/images/location/office-3.jpg",
+        "name": "Rumble Car Hub, Mantri Mall, Bangalore",
+        "title": "Instructions to reach: Reach Mantril Mall, take any elevator to reach Basement 1 and find Spinny",
+        "shortdesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+        "longdesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "social":[
+            {
+                "icon":"fab fa-facebook-f",
+                "title":"Facebook",
+                "url":"#"
+            }
+        ]
+    }
+]

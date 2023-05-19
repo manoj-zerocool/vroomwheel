@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "img":"assets/images/work-1.png",
+        "title":"Choose from the best pre-owned cars",
+        "text":"5000+ fully inspected cars online. Buy with money back guarantee.",
+        "Link": "/"
+    },
+    {
+        "id":2,
+        "img":"assets/images/work-2.png",
+        "title":"Take a test drive at your Home or Spinny Hub",
+        "text":"Sanitised cars for every test drive. Executives trained for COVID protection.",
+        "Link": "/"
+    },
+    {
+        "id":3,
+        "img":"assets/images/work-3.png",
+        "title":"Online Payment. Doorstep Delivery.",
+        "text":"Contactless transaction 5-day money back guarantee.",
+        "Link": "/"
+    },{
+        "//id": 5,
+        "//linkText": "login",
+        "//link": "/login",
+        "//dashboard_link": "/dashboard"
+    },
+   
+    {
+        "//id": 6,
+        "//linkText": "register",
+        "//link": "/register",
+        "//logout_link": "/logout"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "img":"assets/images/services/services-1.jpg",
+        "title":"TIRE AND WHEEL",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+    },
+    {
+        "id":2,
+        "img":"assets/images/services/services-7.jpg",
+        "title":"BRAKE REPAIR",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+    },
+    {
+        "id":3,
+        "img":"assets/images/services/services-8.jpg",
+        "title":"LUBE, OIL AND FILTERS",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+    },
+    {
+        "id":4,
+        "img":"assets/images/services/services-9.jpg",
+        "title":"ENGINE DIAGNOSTICS",
+        "text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+    }
+]

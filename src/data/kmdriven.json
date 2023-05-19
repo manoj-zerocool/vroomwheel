@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "10000 kms & less"
+    },
+    {
+        "id": 2,
+        "title": "30000 kms & less"
+    },
+    {
+        "id": 3,
+        "title": "50000 kms & less"
+    },
+    {
+        "id": 4,
+        "title": "75000 kms & less"
+    },
+    {
+        "id": 5,
+        "title": "100000 kms & less"
+    },
+    {
+        "id": 6,
+        "title": "200000 kms & less"
+    }
+]

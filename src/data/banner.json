@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "VroomWheel",
+        "image": "assets/images/car-1.webp",
+        "image_mobile": "assets/images/car-1-m.webp",
+        "list": [
+            {
+                "icon": "fas fa-car",
+                "text": "No.1 Search Platform for Used Cars in India"
+            }
+        ]
+    }
+]

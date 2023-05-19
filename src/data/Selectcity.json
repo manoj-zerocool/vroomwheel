@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "linkText": "Bay Car",
+        "child": true,
+        "submenu": [
+            {
+                "id": 2.1,
+                "linkText": "Jaipur",
+                "link": "/"
+            },
+            {
+                "id": 2.2,
+                "linkText": "Delhi NCR",
+                "link": "/"
+            },
+            {
+                "id": 2.3,
+                "linkText": "Mumbai",
+                "link": "/"
+            },
+            {
+                "id": 2.5,
+                "linkText": "Banglore",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "linkText": "Home",
+        "link": "/"
+    },
+    {
+        "id": 3,
+        "linkText": "About Us",
+        "link": "/"
+    },
+    {
+        "id": 4,
+        "linkText": "Blog",
+        "link": "/"
+    }
+]
