@@ -830,16 +830,16 @@ class Header extends NavHelper {
                                                         <Link style={{ color: "#2e054e", fontFamily: "Futura Lt BT" }} to="/"> Owner <span className="arrow" /></Link>
                                                         <ul className="custom submenu owner_m" role="menu" style={{ maxHeight: "300px", overflowY: "scroll",  padding: "20px" }}>
                                                             <li className={`menu-item menu-item-has-children`}>
-                                                                <Link to={`/used-1st-owner-cars-${this.state.cityname}`} className="text-theme"> 1-owner </Link>
+                                                                <Link to={`/used-1st-owner-cars-in-${this.state.cityname}`} className="text-theme"> 1-owner </Link>
                                                             </li>
                                                             <li className={`menu-item menu-item-has-children`}>
-                                                                <Link to={`/used-2nd-owner-cars-${this.state.cityname}`} className="text-theme"> 2-owner </Link>
+                                                                <Link to={`/used-2nd-owner-cars-in-${this.state.cityname}`} className="text-theme"> 2-owner </Link>
                                                             </li>
                                                             <li className={`menu-item menu-item-has-children`}>
-                                                                <Link to={`/used-3rd-owner-cars-${this.state.cityname}`} className="text-theme"> 3-owner </Link>
+                                                                <Link to={`/used-3rd-owner-cars-in-${this.state.cityname}`} className="text-theme"> 3-owner </Link>
                                                             </li>
                                                             <li className={`menu-item menu-item-has-children`}>
-                                                                <Link to={`/used-4th-owner-cars-${this.state.cityname}`} className="text-theme"> 4 or more-owner </Link>
+                                                                <Link to={`/used-4th-owner-cars-in-${this.state.cityname}`} className="text-theme"> 4 or more-owner </Link>
                                                             </li>
                                                         </ul>
                                                     </li>
