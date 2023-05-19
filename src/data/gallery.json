@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/cars/1.png",
+        "category": [
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "img": "assets/images/cars/2.png",
+        "category": [
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "img": "assets/images/cars/3.png",
+        "category": [
+            3
+        ]
+    },
+    {
+        "id": 4,
+        "img": "assets/images/cars/4.png",
+        "category": [
+            4
+        ]
+    },
+    {
+        "id": 5,
+        "img": "assets/images/cars/5.png",
+        "category": [
+            1
+        ]
+    },
+    {
+        "id": 6,
+        "img": "assets/images/cars/6.png",
+        "category": [
+            2
+        ]
+    }
+]

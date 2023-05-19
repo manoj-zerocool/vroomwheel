@@ -1,0 +1,278 @@
+[
+    {
+        "id": 1,
+        "linkText": "Explore By",
+        "link": "/"
+    },
+    {
+        "id": 2,
+        "linkText": "Price",
+        "child": true,
+        "submenu": [
+            {
+                "id": 2.1,
+                "linkText": "1 - 3L",
+                "link": "/category"
+            },
+            {
+                "id": 2.2,
+                "linkText": "3L - 6L",
+                "link": "/category"
+            },
+            {
+                "id": 2.3,
+                "linkText": "6L - 10L",
+                "link": "/category"
+            },
+            {
+                "id": 2.5,
+                "linkText": "10L - 20L",
+                "link": "/category"
+            },
+            {
+                "id": 2.6,
+                "linkText": "20L - 50L",
+                "link": "/car-details/1"
+            },
+            {
+                "id": 2.7,
+                "linkText": "50L & Above",
+                "link": "/category"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "linkText": "Make",
+        "child": true,
+        "submenu": [
+            {
+                "id": 2.1,
+                "linkText": "Audi",
+                "link": "/category"
+            },
+            {
+                "id": 2.2,
+                "linkText": "BMW",
+                "link": "/category"
+            },
+            {
+                "id": 2.3,
+                "linkText": "Datsun",
+                "link": "/category"
+            },
+            {
+                "id": 2.5,
+                "linkText": "Fiat",
+                "link": "/category"
+            },
+            {
+                "id": 2.6,
+                "linkText": "Ford",
+                "link": "/car-details/1"
+            },
+            {
+                "id": 2.7,
+                "linkText": "Honda",
+                "link": "/category"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "linkText": "Modal",
+        "child": true,
+        "submenu": [
+            {
+                "id": 2.1,
+                "linkText": "Alto",
+                "link": "/category"
+            },
+            {
+                "id": 2.2,
+                "linkText": "Altoz",
+                "link": "/category"
+            },
+            {
+                "id": 2.3,
+                "linkText": "Aura",
+                "link": "/category"
+            },
+            {
+                "id": 2.5,
+                "linkText": "Baleno",
+                "link": "/category"
+            },
+            {
+                "id": 2.6,
+                "linkText": "Beat",
+                "link": "/car-details/1"
+            },
+            {
+                "id": 2.7,
+                "linkText": "Duster",
+                "link": "/category"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "linkText": "City",
+        "child": true,
+        "submenu": [
+            {
+                "id": 3.1,
+                "linkText": "Bangalore",
+                "link": "/category"
+            },
+            {
+                "id": 3.2,
+                "linkText": "Mumbai",
+                "link": "/category"
+            },
+            {
+                "id": 3.3,
+                "linkText": "Delhi NCR",
+                "link": "/category"
+            },
+            {
+                "id": 3.4,
+                "linkText": "Jaipur",
+                "link": "/category"
+            },
+            {
+                "id": 3.5,
+                "linkText": "Pune",
+                "link": "/category"
+            },
+            {
+                "id": 3.5,
+                "linkText": "All India",
+                "link": "/category"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "linkText": "Fuel Type",
+        "child": true,
+        "submenu": [
+            {
+                "id": 5.1,
+                "linkText": "Diesel",
+                "link": "/category"
+            },
+            {
+                "id": 5.2,
+                "linkText": "Petrol",
+                "link": "/category"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "linkText": "Year",
+        "child": true,
+        "submenu": [
+            {
+                "id": 6.1,
+                "linkText": "2019 & above",
+                "link": "/category"
+            },
+            {
+                "id": 6.2,
+                "linkText": "2017 & above",
+                "link": "/category"
+            },
+            {
+                "id": 6.3,
+                "linkText": "2015 & above",
+                "link": "/category"
+            },
+            {
+                "id": 6.4,
+                "linkText": "2013 & above",
+                "link": "/category"
+            },
+            {
+                "id": 6.5,
+                "linkText": "2011 & above",
+                "link": "/category"
+            },
+            {
+                "id": 6.5,
+                "linkText": "2009 & above",
+                "link": "/category"
+            },
+            {
+                "id": 6.5,
+                "linkText": "2001 & above",
+                "link": "/category"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "linkText": "KM Driven",
+        "child": true,
+        "submenu": [
+            {
+                "id": 7.1,
+                "linkText": "10000 kms & less",
+                "link": "/category"
+            },
+            {
+                "id": 7.2,
+                "linkText": "30000 kms & less",
+                "link": "/category"
+            },
+            {
+                "id": 7.3,
+                "linkText": "50000 kms & less",
+                "link": "/category"
+            },
+            {
+                "id": 7.4,
+                "linkText": "75000 kms & less",
+                "link": "/category"
+            },
+            {
+                "id": 7.5,
+                "linkText": "100000 kms & less",
+                "link": "/category"
+            },
+            {
+                "id": 7.6,
+                "linkText": "200000 kms & less",
+                "link": "/category"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "linkText": "Owner",
+        "child": true,
+        "submenu": [
+            {
+                "id": 8.1,
+                "linkText": "1-owner",
+                "link": "/category"
+            },
+            {
+                "id": 8.2,
+                "linkText": "2-owner",
+                "link": "/category"
+            },
+            {
+                "id": 8.3,
+                "linkText": "3-owner",
+                "link": "/category"
+            },
+            {
+                "id": 8.4,
+                "linkText": "4 or more-owner",
+                "link": "/category"
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^category/(.*)/([0-9]+) /category/?id=$1& [L]
+
+
+
+
+</IfModule>

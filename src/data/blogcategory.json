@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Family"
+    },
+    {
+        "id":2,
+        "title":"Adventure"
+    },
+    {
+        "id":3,
+        "title":"Romantic"
+    },
+    {
+        "id":4,
+        "title":"Wildlife"
+    },
+    {
+        "id":5,
+        "title":"Beach"
+    },
+    {
+        "id":6,
+        "title":"Honeymoon"
+    },
+    {
+        "id":7,
+        "title":"Parks"
+    }
+]

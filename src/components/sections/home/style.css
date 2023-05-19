@@ -1,0 +1,241 @@
+
+
+
+.custome_mr{
+    padding-top: 40px;
+}
+
+.section-header{
+    padding-bottom: 0;
+}
+
+.section-header .section-heading h3 {
+    font-size: 25px;
+}
+
+
+/* Slider style */
+
+.search_bar{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding: 0px 20px;
+    flex: 1 1;
+    outline: 0;
+    border: none;
+    background-color: #fff;
+    font-family: 'Futura Lt BT', sans-serif;
+    font-size: 16px;
+    color: #6a5779;
+    font-weight: 400 !important;
+    word-spacing: 2px;
+    font-size: 15px;
+}
+
+/* .view_cars{
+    background: #8b10e4;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+} */
+
+/* .category .fa-car{
+    color: #fff;
+} */
+
+/* .btn-small::before, .btn-submit::before {
+    background-color: #440274;
+} */
+
+
+/* Category  Style*/
+
+.cityname{
+    font-family: 'Futura Hv BT', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/* .category:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0 0 5px grey !important;
+  } */
+
+
+/* Service style */
+
+.service .head_description h5,
+.service .head_description p{
+    color: #2e054e;
+    margin-bottom: 0;
+}
+
+.service .watch_film_btn{
+    background: #6300a3;
+    color: #fff;
+    padding: 10px  40px;
+}
+
+.service .learn_more_btn{
+    color: #6300a3;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+
+/* pricing_banner style */
+
+.pricing_banner{
+    background-color: #2e054e;
+}
+
+.pricing_banner .pricing_section1{
+    box-sizing: border-box;
+    padding: 5% 8%;
+}
+
+.pricing_banner .pricing_section1 h5,
+.pricing_banner .pricing_section1 h3{
+    color: #fff;
+}
+
+.pricing_banner .pricing_section1 h6{
+    font-weight: 400;
+    color: grey;
+    line-height: 22px;
+}
+
+.pricing_banner .pricing_section1 .get_price{
+    background-color: #ed264f;
+    border: none;
+    padding: 12px 50px;
+    color: #fff;
+}
+
+/* State style */
+
+.state_card{
+    background: #2e054e;
+    color: #fff;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.state_card img{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.state_card h4{
+    margin: 10px 0 5px;
+    color: #ed264f;
+}
+
+.state_card p{
+    font-size: 12.3px;
+}
+
+
+/* Work style */
+
+.work_component .section-description h5,
+.work_component .section-description p,
+.work_component .content_heading h5{
+    color: #2e054e;
+    margin-bottom: 0.3rem;
+}
+
+.work_component .content_heading{
+    padding: 0rem 2rem;
+}
+
+.work_component .content_heading p{
+    margin-bottom: 0;
+}
+
+.work_component .content_heading button{
+    color: #6300a3;
+    font-weight: 600;
+}
+
+.work_component .watch_film_btn{
+    background: #6300a3;
+    color: #fff;
+    padding: 10px  40px;
+}
+
+.work_component .learn_more_btn{
+    color: #6300a3;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+
+/* cars style */
+
+.cars_component .cars_button button{
+    border: 1px solid #6300a3;
+    color: #6300a3;
+    padding: 10px  40px;
+}
+
+
+/* Blog style */
+
+.blog_component h6{
+    color: #2e054e;
+    margin-bottom: 0;
+    font-weight: 800;
+    line-height: 22px;
+}
+
+.blog_component .post-footer .btn-first{
+    color: #6300a3;
+    font-weight: 700;
+}
+
+/* Story style */
+
+.post_story p{
+    color: #371056;
+    line-height: 20px;
+}
+
+.post_story .btn-first{
+    color: #371056;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 0 !important;
+}
+
+@media only screen and (max-device-width : 640px) {
+    .customaccordionhwe{
+        margin-bottom: 0px !important;
+    }
+
+    .icontext{
+        display: none !important;
+    }
+
+    .viewallcarhwe{
+        text-align: center;
+    }
+    
+    .view_all_cars{
+        display: block !important;
+    }
+
+   
+
+}
+
+
+
+
+
+

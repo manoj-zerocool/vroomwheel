@@ -1,0 +1,572 @@
+/* @font-face{font-family:futura md bt;font-style:normal;font-weight:400;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futuram.woff) format('woff')}@font-face{font-family:futura md bt;font-style:italic;font-weight:400;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futurami.woff) format('woff')}@font-face{font-family:futura md bt;font-style:normal;font-weight:700;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futurab.woff) format('woff')}@font-face{font-family:futura md bt;font-style:italic;font-weight:700;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futurabi.woff) format('woff')}@font-face{font-family:futurablack bt;font-style:normal;font-weight:400;src:local('FuturaBlack BT'),url(https://fonts.cdnfonts.com/s/14894/futurak.woff) format('woff')}@font-face{font-family:futura bdcn bt;font-style:normal;font-weight:400;src:local('Futura BdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurabc.woff) format('woff')}@font-face{font-family:futura hv bt;font-style:normal;font-weight:400;src:local('Futura Hv BT'),url(https://fonts.cdnfonts.com/s/14894/futurah.woff) format('woff')}@font-face{font-family:futura lt bt;font-style:normal;font-weight:400;src:local('Futura Lt BT'),url(https://fonts.cdnfonts.com/s/14894/futural.woff) format('woff')}@font-face{font-family:futura ltcn bt;font-style:normal;font-weight:400;src:local('Futura LtCn BT'),url(https://fonts.cdnfonts.com/s/14894/futuralc.woff) format('woff')}@font-face{font-family:futura mdcn bt;font-style:normal;font-weight:400;src:local('Futura MdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futuramc.woff) format('woff')}@font-face{font-family:futura bk bt;font-style:normal;font-weight:400;src:local('Futura Bk BT'),url(https://fonts.cdnfonts.com/s/14894/futuran.woff) format('woff')}@font-face{font-family:futura bk bt;font-style:normal;font-weight:400;src:local('Futura Bk BT'),url(https://fonts.cdnfonts.com/s/14894/futurani.woff) format('woff')}@font-face{font-family:futura xblk bt;font-style:normal;font-weight:400;src:local('Futura XBlk BT'),url(https://fonts.cdnfonts.com/s/14894/futuraxk.woff) format('woff')}@font-face{font-family:futura xblkcn bt;font-style:normal;font-weight:400;src:local('Futura XBlkCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurxkc.woff) format('woff')}@font-face{font-family:futura bdcn bt;font-style:italic;font-weight:400;src:local('Futura BdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurbci.woff) format('woff')}@font-face{font-family:futura hv bt;font-style:italic;font-weight:400;src:local('Futura Hv BT'),url(https://fonts.cdnfonts.com/s/14894/futurahi.woff) format('woff')}@font-face{font-family:futura lt bt;font-style:italic;font-weight:400;src:local('Futura Lt BT'),url(https://fonts.cdnfonts.com/s/14894/futurali.woff) format('woff')}@font-face{font-family:futura ltcn bt;font-style:italic;font-weight:400;src:local('Futura LtCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurlci.woff) format('woff')}@font-face{font-family:futura mdcn bt;font-style:italic;font-weight:400;src:local('Futura MdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurmci.woff) format('woff')}@font-face{font-family:futura xblkit bt;font-style:italic;font-weight:400;src:local('Futura XBlkIt BT'),url(https://fonts.cdnfonts.com/s/14894/futurxki.woff) format('woff')}@font-face{font-family:futura xblkcnit bt;font-style:italic;font-weight:400;src:local('Futura XBlkCnIt BT'),url(https://fonts.cdnfonts.com/s/14894/futuxkci.woff) format('woff')} */
+html{
+   
+    scrollbar-width: none !important;;
+}
+.section-header .section-heading h3 {
+    font-size: 25px;
+}
+
+.cars_lest_details h5 {
+    color: #2e054e;
+    letter-spacing: 1px;
+}
+
+.cars_lest_details span {
+    color: #2e054e;
+    font-weight: 600;
+}
+
+.cars_lest_details p {
+    color: #2e054e;
+    font-size: 13px
+}
+
+
+/* Content component style */
+
+.category {
+    transition: transform 0.5s;
+}
+
+.category:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px grey !important;
+}
+
+.category .title {
+    font-family: 'Futura Hv BT', sans-serif;
+    font-size: 14px;
+    color: #2e054e;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.category .title small {
+    font-family: 'Futura MdCn BT', sans-serif;
+    font-size: 12px !important;
+    display: block;
+    color: #2e054e;
+    text-transform: capitalize !important;
+    margin-bottom: 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.category .title h5 {
+    font-family: 'Futura Hv BT', sans-serif;
+    font-size: 14px;
+    display: block;
+    color: #2e054e;
+    text-transform: capitalize !important;
+    margin-bottom: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.category .image-sec {
+    height: 160px !important;
+}
+
+.car_listing {
+    border-bottom: none;
+    background: #f6f4f8;
+    padding: 0;
+}
+
+.car_footer {
+    color: #6300a3;
+    font-family: 'Futura Lt BT', sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.sort_category {
+    font-family: 'Futura Hv BT', sans-serif;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 2px grey;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    color: #2e054e;
+    text-align: left;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-menu li {
+    color: #2e054e;
+    font-family: 'Futura Hv BT', sans-serif;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 1rem;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f5f4f4;
+    cursor: pointer;
+}
+
+.citybradcrumb:hover,
+.make_bradcrumb:hover {
+    text-decoration: underline;
+}
+
+.custome_group {
+    width: 65%;
+    margin-left: 22px;
+    float: right;
+}
+
+.filter_short_hwe {
+    position: sticky ;
+    top: 0;
+    z-index: 2;
+    background-color: #F5F5F5;
+
+}
+.fixed_with__data{
+    position: fixed !important;
+    top: 0;
+    z-index: 2;
+}
+.sticky_with_data{
+    position: sticky ;
+}
+.sticky_with_non_data{
+    position: sticky !important;
+}
+.filter_short_hwe.sticky {
+    position: fixed !important;
+  
+}
+.filter_short_hwe.sticky_scroll{
+    top: -20px;
+    z-index: 2;
+    background-color: #F5F5F5;
+}
+.custome_group.sticky {
+    width: 50% !important;
+    margin-left: 22px;
+    float: left !important;
+  }
+.loader {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    top: 300px;
+    align-items: center;
+    opacity: 1;
+    width: 70%;
+    right: unset;
+    text-align: center;
+    margin-top: -145px;
+}
+.loader > .spinner-border{
+    color: black !important;
+}
+.top_filterhwe {
+    font-size: 14px;
+    background-color: #fff;
+    color: #6300a3;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px !important;
+    background: yellow !important;
+}
+
+/* modal..... */
+#exampleModal {
+    z-index: 999999999;
+  }
+
+ 
+.col-lg-9.offset-3.darkmode {
+    min-height: 1200px !important;
+    position: relative !important;
+}
+
+#side_bar::-webkit-scrollbar-thumb:vertical {
+    background-color: rgb(142, 142, 142);
+}
+
+
+
+.noUi-handle {
+   
+    border-radius: 20px !important;
+    background: #4f0083 !important;
+
+  }
+
+  .noUi-handle:before,
+.noUi-handle:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 1px;
+  background: none !important;
+  left: 14px;
+  top: 6px;
+}
+
+
+  .maxprice {
+    margin-top: 14px;
+    font-size: 17px;
+}
+
+
+.minprice{
+
+    margin-top: 14px;
+    font-size: 17px;
+}
+
+
+
+.linetext:hover {
+    text-decoration: line-through;
+}
+
+.clear_all {
+    background-color: #6300a3 !important;
+    color: #fff !important;
+    padding: 0px 10px;
+}
+
+.cat_list {
+    /* height: 1120px;
+    overflow-y: scroll; */
+    padding: 0px 10px;
+/* max-height: 1000px;
+overflow-y: scroll;
+scrollbar-width: none; */
+}
+
+.cat_list::-webkit-scrollbar {
+    /* height: 1120px;
+    overflow-y: scroll; */
+    scrollbar-width: none;
+}
+
+.clear_all,
+.km_hwe,
+.o_hwe,
+.y_hwe,
+.f_hwe,
+.p_hwe {
+    margin-top: 5px;
+}
+
+.car_loading {
+    text-align: center;
+}
+
+.noUi-connect {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(202, 202, 202) 0%, rgb(202, 202, 202) 0%, rgb(99, 0, 163) 0%, rgb(99, 0, 163) 100%, rgb(202, 202, 202) 100%) repeat scroll 0% 0% !important;
+}
+
+.noUi-handle {
+    border: none !important;
+}
+
+/* Hp css start*/
+
+.mobilefilter_hwe {
+    display: none;
+}
+
+.mobilefilter_hwe button {
+    width: auto;
+}
+
+/* popup */
+.close {
+    cursor: pointer;
+}
+
+.modal {
+    overflow: scroll !important;
+}
+
+/* .desktop_sidebar{
+    position: fixed;
+    z-index: 10;
+} */
+
+/* popup */
+
+/* Hp css over*/
+#paginationData > .category{
+    width: 281px;
+height: 280px;
+} 
+#paginationData > .category > .car-grid-wrapper{
+    display: block;
+}
+#paginationData > .category > .car-grid-wrapper > a{
+    display: flex;
+    justify-content: center;
+}
+.filteradd_hwe_parent >span{
+    margin-top: 0px !important;
+  height: 36px
+  }
+  .fluidhwe_blur{
+    -webkit-filter :blur(02px) !important;
+    pointer-events: none !important;
+  }
+@media only screen and (max-device-width : 640px) {
+
+    .navigation-wrapper {
+        display: block !important;
+    }
+
+    .fluidhwe {
+        padding: 0rem 1rem !important;
+    }
+
+    .custome_group {
+        /* width: 100% !important; */
+        margin-top: 8px !important;
+    }
+    .custome_group.sticky {
+        width: 76% !important;
+        margin-left: 22px;
+        float: left !important;
+      }
+
+    .text-center.p-2 {
+        text-align: left !important;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 0rem !important;
+    }
+
+    .form_data_search {
+        margin-top: 12px !important;
+    }
+
+    .custom-flex {
+        z-index: 0 !important;
+    }
+
+    .makedownhwe {
+        position: absolute;
+        top: -10px;
+        font-size: 16px;
+    }
+
+    /* Hp css start */
+
+    .desktop_sidebar {
+        display: none;
+    }
+
+    .mobilefilter_hwe {
+        display: block;
+    }
+
+    .custome_group {
+        width: 100%;
+    }
+
+    .darkmode{
+        margin-left: unset !important;
+    }
+
+    .maxprice {
+        margin-top: 14px;
+        font-size: 17px;
+    }
+    
+    .sticky_with_non_data .filteradd_hwe_parent{
+        display: none !important;
+    }
+    .sticky_with_data .filteradd_hwe_parent{
+        display: block !important;
+    }
+    .fixed_with__data{
+        display: block !important;
+    }
+    #paginationData > .category{
+        width: 100%;
+    height: unset;
+    -webkit-transform: scale(1);
+    } 
+    .image-sec.animate-img {
+        max-width: 100% !important;
+    }
+    .car_footer{
+        text-align: left;
+    }
+    .car_footer > h6{
+        font-weight: 500 !important;
+        margin:5px 0px 2px 0px !important;
+    }
+    .category .image-sec {
+        height: 217px !important;
+      }
+      .mb-xl-30 {
+        margin-bottom: 13px;
+      }
+
+    .sticky_with_data .filter_short_hwe_hwe{
+        padding: unset !important;
+        margin-left: 10px;
+    }
+    .fixed_with__data .filter_short_hwe_hwe{
+        padding: 0px 12px !important;
+                margin-left: 0px;
+    }
+    
+    
+}
+    
+.car_footer > h6{
+    font-weight: 500 !important;
+    margin:5px 0px 2px 0px !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+      scrollbar-width: thin !important;
+    background: #dee1e6 !important;
+  }
+
+
+
+  .section-padding.footer {
+    position: relative;
+    z-index: 999999999;
+  }
+
+  .section-padding.car-booking.pt-0.pb-4 {
+    position: relative;
+    z-index: 9999999999;
+  }
+
+
+  
+@media only screen and (max-device-width : 600px) {
+
+    a.btn-first.btn-small.view_all.mb-3 {
+        display: none !important;
+
+
+    }
+
+}
+/* ravi start */
+
+.noUi-horizontal .noUi-handle{
+    
+        width: 18px !important;
+        height: 18px !important;
+        right: -10px !important;
+        top: -7px !important;
+      }
+      .noUi-horizontal {
+        height: 4px !important;
+      }
+      .noUi-target {
+        background: #D2D2D2 !important;
+        border: 0px solid #D3D3D3 !important;
+        box-shadow: unset !important;
+        
+      }
+      .noUi-handle {
+        cursor: pointer !important;
+        box-shadow: unset !important;
+      }
+/* ravi end */
+@media (max-width: 992px){
+
+    #side_bar {
+        width: 24% !important;
+        position: fixed !important;
+        display: flex !important;
+      }
+
+      
+.col-lg-9.offset-3.darkmode {
+    width: 81%;
+    }
+
+    .btn-group.custome_group {
+        margin-right: 42px;
+      }
+}
+
+@media only screen and (max-device-width: 640px){
+    .col-lg-9.offset-3.darkmode {
+      width: 100%;
+    }
+    .btn-group.custome_group {
+        margin-right: 0px;
+      }
+      .sort_category {
+        padding-top: 2px;
+padding-bottom: 2px;
+      }
+      #paginationData{
+        display: block !important;
+      }
+    }
+
+    .slick-arrow.slick-prev{
+    margin-top: 108px;
+    position: absolute;
+    margin-left: -67px;
+    font-size: 26px;
+    }
+
+    .slick-arrow.slick-next{
+        position: absolute;
+        right: -45px;
+        margin-top: -161px;
+        font-size: 26px;
+    }
+    
+element {
+
+    display: block;
+
+}
+.slick-arrow.slick-next {
+
+    position: absolute;
+    margin-top: 0px;
+    font-size: 0px;
+    padding: 60px;
+
+}
+.slick-arrow.slick-prev {
+
+    position: absolute;
+    right: unset;
+    margin-top: 0px;
+    font-size: 0px;
+    padding: 60px;
+    
+}
