@@ -958,13 +958,24 @@ if('rumble_scroll' == body_class_type){
             path_km_hwe ='-under-'+path_km+'-kms';
         }
         if(path_owner !=''){
-            path_owner_hwe =path_owner+'st-owner-';
+            if(path_owner == 1){
+                path_owner_hwe =path_owner+'st-owner-';
+            }
+            if(path_owner == 2){
+                path_owner_hwe =path_owner+'nd-owner-';
+            }
+            if(path_owner == 3){
+                path_owner_hwe =path_owner+'rd-owner-';
+            }
+            if(path_owner == 4){
+                path_owner_hwe =path_owner+'th-owner-';
+            }
+            
         }
        if(make_string !=''){
          make_string_path +=make_string;
        }else{
          make_string_path ='';
-        
        }
        if(Model_string !=''){
         make_string_single='';
@@ -1317,7 +1328,21 @@ $('.filter_save').trigger('click');
 
             $('.owner' + attrval).prop('checked', false);
             const pathname_her =  window.location.pathname;
-            const   new_path_nfv = pathname_her.replace('-'+attrval+'st-owner','')
+            var remove_owner_str = '';
+
+            if(attrval == 1){
+                var remove_owner_str = 'st-owner';
+            }else if(attrval == 2){
+                var remove_owner_str = 'nd-owner';
+
+            }else if(attrval == 3){
+                var remove_owner_str = 'rd-owner';
+
+            }else if(attrval == 4){
+                var remove_owner_str = 'th-owner';
+
+            }
+            const   new_path_nfv = pathname_her.replace('-'+attrval+remove_owner_str,'')
            window.history.pushState('', '', new_path_nfv);
             this.setState({ owner: "" });
             $(".o_hwe").css("padding", "0");
