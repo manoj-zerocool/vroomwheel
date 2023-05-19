@@ -1,0 +1,1226 @@
+[
+    {
+        "id": 1,
+        "cartype": [
+            1
+        ],
+        "img": "assets/images/cars/1.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 18,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "author": [
+            1
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "cartype": [
+            2
+        ],
+        "img": "assets/images/cars/2.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 20,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "author": [
+            2
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "cartype": [
+            3
+        ],
+        "img": "assets/images/cars/3.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 22,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            7,
+            8,
+            9
+        ],
+        "author": [
+            3
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "cartype": [
+            4
+        ],
+        "img": "assets/images/cars/4.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 24,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "author": [
+            4
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "cartype": [
+            5
+        ],
+        "img": "assets/images/cars/5.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 12,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            7,
+            8,
+            9
+        ],
+        "author": [
+            5
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "cartype": [
+            6
+        ],
+        "img": "assets/images/cars/6.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 46,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "author": [
+            6
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "cartype": [
+            7
+        ],
+        "img": "assets/images/cars/7.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 23,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "author": [
+            7
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "cartype": [
+            8
+        ],
+        "img": "assets/images/cars/8.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 12,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            7,
+            8,
+            9
+        ],
+        "author": [
+            8
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "cartype": [
+            9
+        ],
+        "img": "assets/images/cars/9.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 10,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "author": [
+            1
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "cartype": [
+            10
+        ],
+        "img": "assets/images/cars/10.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 16,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "author": [
+            2
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "cartype": [
+            1
+        ],
+        "img": "assets/images/cars/11.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 15,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            7,
+            8,
+            9
+        ],
+        "author": [
+            3
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "cartype": [
+            2
+        ],
+        "img": "assets/images/cars/12.png",
+        "bigimg": "assets/images/cars/car_big.png",
+        "bookingtime": "Per Day",
+        "price": 20,
+        "shortdesc": "Grate explorer of tha truth tha master-bulder of human happines.",
+        "information": "<h4 class='text-custom-black'>Car Rental Information</h4><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p><p class='text-light-dark no-margin'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+        "carinfo": [
+            {
+                "icon": "fas fa-car",
+                "label": "Rental Company:",
+                "text": "EZ Rent a Car"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Type",
+                "text": "Economy"
+            },
+            {
+                "icon": "fas fa-car",
+                "label": "Car Name",
+                "text": "Toyota Auris"
+            },
+            {
+                "icon": "fas fa-users",
+                "label": "Passenger",
+                "text": 4
+            },
+            {
+                "icon": "fas fa-briefcase",
+                "label": "Baggage",
+                "text": 2
+            },
+            {
+                "icon": "fas fa-info-circle",
+                "label": "Features",
+                "text": "Available"
+            },
+            {
+                "icon": "fas fa-qrcode",
+                "label": "Taxs & Fees",
+                "text": "$155.60"
+            },
+            {
+                "icon": "fas fa-money-bill-wave",
+                "label": "Total Price",
+                "text": "$201"
+            }
+        ],
+        "amenities": {
+            "title": "Amenities",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum."
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "shortdesc": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "pickupphone": "(+247) 123 456 7890",
+            "pickuptime": "Thu, Feb 14, 2022 | 11:00 AM",
+            "pickuplocation": "London City, Airport",
+            "dropoffphone": "(+247) 123 456 7890",
+            "dropofftime": "Thu, Feb 15, 2022 | 11:00 AM",
+            "dropofflocation": "Paris Orly, Airport"
+        },
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "author": [
+            4
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rosalina Pong",
+                "img": "assets/images/blog/comment_1.jpg",
+                "date": "25 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": [
+                    {
+                        "id": 1.1,
+                        "name": "Brian Wright",
+                        "img": "assets/images/blog/comment_2.jpg",
+                        "date": "26 Jan 2022",
+                        "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Sarah Wright",
+                "img": "assets/images/blog/comment_3.jpg",
+                "date": "24 Jan 2022",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "replies": []
+            }
+        ]
+    }
+]

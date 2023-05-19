@@ -1,0 +1,182 @@
+.section-header .section-heading h3 {
+    font-size: 25px;
+}
+
+.details_section h5{
+    color: #2e054e;
+    font-family: 'Futura Hv BT', sans-serif;
+    font-weight: 550;
+    font-size: 17px;
+}
+.details_section label{
+    color: #bbbbbb;
+    font-family: 'Futura Hv BT', sans-serif;
+    font-weight: 550;
+    font-size: 12px;
+}
+
+.details_section h6{
+    color: #2e054e;
+    font-family: 'Futura Hv BT', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.details_section .row_one{
+    padding: 0.5rem 0;
+}
+
+
+.social_action {
+    display: none !important;
+  }
+
+.details_section .social_icon{
+    font-size: 25px;
+    color: #2e054e;
+    cursor: pointer;
+    margin-right: 1.2rem;
+}
+
+.details_section .center_row{
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.city_bradcrumb:hover,
+.make_bradcrumb:hover{
+    text-decoration: underline;
+}
+
+/* For media */
+
+/* @font-face{font-family:futura md bt;font-style:normal;font-weight:400;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futuram.woff) format('woff')}@font-face{font-family:futura md bt;font-style:italic;font-weight:400;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futurami.woff) format('woff')}@font-face{font-family:futura md bt;font-style:normal;font-weight:700;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futurab.woff) format('woff')}@font-face{font-family:futura md bt;font-style:italic;font-weight:700;src:local('Futura Md BT'),url(https://fonts.cdnfonts.com/s/14894/futurabi.woff) format('woff')}@font-face{font-family:futurablack bt;font-style:normal;font-weight:400;src:local('FuturaBlack BT'),url(https://fonts.cdnfonts.com/s/14894/futurak.woff) format('woff')}@font-face{font-family:futura bdcn bt;font-style:normal;font-weight:400;src:local('Futura BdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurabc.woff) format('woff')}@font-face{font-family:futura hv bt;font-style:normal;font-weight:400;src:local('Futura Hv BT'),url(https://fonts.cdnfonts.com/s/14894/futurah.woff) format('woff')}@font-face{font-family:futura lt bt;font-style:normal;font-weight:400;src:local('Futura Lt BT'),url(https://fonts.cdnfonts.com/s/14894/futural.woff) format('woff')}@font-face{font-family:futura ltcn bt;font-style:normal;font-weight:400;src:local('Futura LtCn BT'),url(https://fonts.cdnfonts.com/s/14894/futuralc.woff) format('woff')}@font-face{font-family:futura mdcn bt;font-style:normal;font-weight:400;src:local('Futura MdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futuramc.woff) format('woff')}@font-face{font-family:futura bk bt;font-style:normal;font-weight:400;src:local('Futura Bk BT'),url(https://fonts.cdnfonts.com/s/14894/futuran.woff) format('woff')}@font-face{font-family:futura bk bt;font-style:normal;font-weight:400;src:local('Futura Bk BT'),url(https://fonts.cdnfonts.com/s/14894/futurani.woff) format('woff')}@font-face{font-family:futura xblk bt;font-style:normal;font-weight:400;src:local('Futura XBlk BT'),url(https://fonts.cdnfonts.com/s/14894/futuraxk.woff) format('woff')}@font-face{font-family:futura xblkcn bt;font-style:normal;font-weight:400;src:local('Futura XBlkCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurxkc.woff) format('woff')}@font-face{font-family:futura bdcn bt;font-style:italic;font-weight:400;src:local('Futura BdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurbci.woff) format('woff')}@font-face{font-family:futura hv bt;font-style:italic;font-weight:400;src:local('Futura Hv BT'),url(https://fonts.cdnfonts.com/s/14894/futurahi.woff) format('woff')}@font-face{font-family:futura lt bt;font-style:italic;font-weight:400;src:local('Futura Lt BT'),url(https://fonts.cdnfonts.com/s/14894/futurali.woff) format('woff')}@font-face{font-family:futura ltcn bt;font-style:italic;font-weight:400;src:local('Futura LtCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurlci.woff) format('woff')}@font-face{font-family:futura mdcn bt;font-style:italic;font-weight:400;src:local('Futura MdCn BT'),url(https://fonts.cdnfonts.com/s/14894/futurmci.woff) format('woff')}@font-face{font-family:futura xblkit bt;font-style:italic;font-weight:400;src:local('Futura XBlkIt BT'),url(https://fonts.cdnfonts.com/s/14894/futurxki.woff) format('woff')}@font-face{font-family:futura xblkcnit bt;font-style:italic;font-weight:400;src:local('Futura XBlkCnIt BT'),url(https://fonts.cdnfonts.com/s/14894/futuxkci.woff) format('woff')} */
+
+.cars_lest_details h6{
+    color: #2e054e;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.cars_lest_details span{
+    color: #2e054e;
+    font-weight: 600;
+}
+
+.cars_lest_details p{
+    color: #2e054e;
+    font-size: 13px
+}
+
+
+/* Content component style */
+
+.category{
+    transition: transform 0.5s;
+}
+
+.category:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px grey !important;
+}
+
+.category .title {
+    font-family: 'Futura Hv BT', sans-serif;
+    font-size: 14px;
+    color: #2e054e;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.category .title small{
+    font-family: 'Futura MdCn BT', sans-serif;
+    font-size: 14px !important;
+    display: block;
+    color: #2e054e;
+    text-transform: capitalize !important;
+    margin-bottom: 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.category .title h5{
+    font-family: 'Futura Hv BT', sans-serif;
+    font-size: 18px;
+    display: block;
+    color: #2e054e;
+    text-transform: capitalize !important;
+    margin-bottom: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.category .image-sec{
+    height: 180px !important;
+}
+
+.car_listing{
+    border-bottom: none;
+    background: #f6f4f8;
+    padding: 0;
+}
+
+.car_footer{
+    color: rgb(123, 16, 223);
+    font-family: 'Futura Lt BT', sans-serif;
+    font-weight: 600;
+}
+
+@media only screen and (max-device-width : 640px) {
+
+    .fluidhwe{
+      padding: 0rem 1rem !important;
+    }
+
+    .custom-accordion,
+    .carimghwe{
+        margin-bottom: 0px !important;
+    }
+  
+    .navigation-wrapper{
+
+        display: block !important;
+      }
+
+      
+.social_action {
+    display: block !important;
+  }
+
+  .trger {
+    display: none;
+  }
+
+  .singel_car{
+    padding: 0 !important;
+  }
+
+
+  .slide_item_hwe{
+height: auto !important;
+
+}
+
+
+
+.view_all{
+    padding: 3px 20px;
+    font-size:17px  !important;
+}
+
+.social_icon{
+    font-size: 18px !important;
+}
+
+.btn-first.btn-small.view_all.mt-3.mb-2 {
+
+    padding: 17px 19px !important;
+}
+
+
+
+}
