@@ -345,3 +345,19 @@ height: 100vh;
     padding-right: 7px !important;
   }
 }
+
+/* Hemraj */
+@media only screen and (min-width: 993px) and (max-width: 1309px) { 
+
+	.mainnavhwe{
+		justify-content: space-between !important;
+		flex-wrap: nowrap !important;
+	}
+
+	.header .navigation-wrapper nav > .main-navigation .main-menu > ul > .menu-item {
+		padding: 14px 8px !important;
+	}
+
+}
+
+

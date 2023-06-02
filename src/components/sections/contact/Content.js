@@ -49,7 +49,7 @@ class Content extends Contacthelper {
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-group">
-                                                <input type="text" name="phone" value={this.state.phone} onChange={this.onPhoneChange.bind(this)} className="form-control form-control-custom" placeholder="Phone No." required />
+                                                <input type="number" name="phone" value={this.state.phone} onChange={this.onPhoneChange.bind(this)} className="form-control form-control-custom" placeholder="Phone No." required />
                                             </div>
                                         </div>
                                         <div className="col-md-12">
@@ -108,7 +108,7 @@ class Content extends Contacthelper {
                             </div>
                             <div className="col-lg-4 col-sm-6">
                                 <div className="contact-info-box"> <i className="flaticon-envelope" />
-                                    <h6 className="text-theme fw-600"><Link to="#" className="text-theme">info@vroomwheel.com</Link><br />
+                                    <h6 className="text-theme fw-600"><a href="mailto:info@vroomwheel.com"><strong>info@vroomwheel.com<br/></strong> </a><br />
                                         24 X 7 online support</h6>
                                 </div>
                             </div>

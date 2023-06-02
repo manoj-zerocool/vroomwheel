@@ -22,13 +22,13 @@ const settings = {
             breakpoint: 1200,
             settings: {
                 
-                arrows: true,
+        
                 slidesToShow: 3
             }
         }, {
             breakpoint: 768,
             settings: {
-                arrows: false,
+        
                 dots: true,
                 slidesToShow: 2
             }
@@ -36,7 +36,7 @@ const settings = {
         {
             breakpoint: 576,
             settings: {
-                arrows: false,
+           
                 dots: true,
                 slidesToShow:1
             }
@@ -59,7 +59,7 @@ class Partners extends Component {
     }
     render() {
         return (
-            <div className="container">
+            <div className="container index_slick_slider">
                 <div className="section-header text-center">
                     <div className="section-heading">
                         <h3 className="text-custom-black" style={{ color: "#2e054e" }}>Testimonials</h3>
