@@ -16,8 +16,12 @@ const pagelocation = "Category";
 //     window.location.href  = new_url;
 //     var Error =null;
 //   }
+
+// {"https://vroomwheel.com/"}
+
 class privacy_police extends Component {
     render() {
+      
         return (
             <Fragment>
                 <MetaTags>
@@ -40,7 +44,7 @@ class privacy_police extends Component {
   </div>
         <p ><strong><u>PRIVACY POLICY for VroomWheel.com</u></strong></p>
 <ul>
-<li>This policy sets out how <strong>vroomwheel.com</strong> or the <strong>‘company’</strong> collects, uses and discloses&nbsp;your&nbsp;personal&nbsp;information.</li>
+<li>This policy sets out how <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> or the <strong>‘company’</strong> collects, uses and discloses&nbsp;your&nbsp;personal&nbsp;information.</li>
 </ul>
 <p>&nbsp;</p>
 <ul>
@@ -48,39 +52,39 @@ class privacy_police extends Component {
 </ul>
 <p>&nbsp;</p>
 <ul>
-<li>By accessing or using <strong>vroomwheel</strong>.<strong>com</strong> products/services/experiences, you agree to the use and disclosure of your personal information in the manner described in this policy and that you are subjecting yourself exclusively to the laws of India. This website/app/company do not provide services outside India as of now.</li>
+<li>By accessing or using <a href={"https://vroomwheel.com/"}><strong>vroomwheel</strong>.<strong>com</strong></a> products/services/experiences, you agree to the use and disclosure of your personal information in the manner described in this policy and that you are subjecting yourself exclusively to the laws of India. This website/app/company do not provide services outside India as of now.</li>
 </ul>
 <p>&nbsp;</p>
 <ul>
-<li>Words defined in the <strong>vroomwheel</strong>.<strong>com</strong> Terms and Conditions of Use/Terms of Service shall have the same meaning in this Privacy Policy and should be read as part and parcel of this Privacy policy.</li>
+<li>Words defined in the <a href={"https://vroomwheel.com/"}><strong>vroomwheel</strong>.<strong>com</strong></a> Terms and Conditions of Use/Terms of Service shall have the same meaning in this Privacy Policy and should be read as part and parcel of this Privacy policy.</li>
 </ul>
 <p>&nbsp;</p>
 <ol></ol>
 <ol>
 <li>
 <strong><strong>WHAT PERSONAL INFORMATION IS COLLECTED:<br/><br/></strong></strong>
-<p><strong>vroomwheel.com</strong> collects personal information that it considers necessary for delivering the service through its platform, or its related bodies corporate to provide the range of services they offer. <br/> <br/> Personal information collected by <strong>vroomwheel.com</strong> may include:</p>
+<p><a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> collects personal information that it considers necessary for delivering the service through its platform, or its related bodies corporate to provide the range of services they offer. <br/> <br/> Personal information collected by <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> may include:</p>
 <ul>
 <li>your name, address and contact details</li>
 <li>user ID's and passwords</li>
 <li>the services provided to you</li>
-<li>records of communications with <strong>vroomwheel.com</strong> including records using Communications Services, and</li>
+<li>records of communications with <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> including records using Communications Services, and</li>
 <li>Other information required to complete the services through the platform.&nbsp; &nbsp;</li>
 </ul>
 <strong><br/><br/></strong>
 </li>
 <li>
 <strong><strong>HOW IS PERSONAL INFORMATION COLLECTED:<br/><br/></strong></strong>
-<p><strong>vroomwheel.com</strong> collects personal information in a number of ways, including:</p>
+<p><a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> collects personal information in a number of ways, including:</p>
 <ul>
-<li>directly from you when you provide information directly to <strong>vroomwheel.com</strong> in person, by phone or in writing (whether electronic or otherwise)</li>
-<li>directly from you when you communicate with <strong>vroomwheel.com</strong> or any other person using <strong>vroomwheel.com</strong> Services</li>
+<li>directly from you when you provide information directly to <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> in person, by phone or in writing (whether electronic or otherwise)</li>
+<li>directly from you when you communicate with <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> or any other person using <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> Services</li>
 <li>from third parties such as:</li>
 <ul>
 <li>
-<strong>vroomwheel.com</strong> related companies, vendors/merchants listed on <strong>vroomwheel.com;</strong>
+<a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> related companies, vendors/merchants listed on <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a>;
 </li>
-<li>operators of linked or served web sites, applications and advertising on the <strong>vroomwheel.com</strong> network;</li>
+<li>operators of linked or served web sites, applications and advertising on the <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> network;</li>
 </ul>
 </ul>
 <ul>
@@ -95,21 +99,21 @@ class privacy_police extends Component {
 <li>to provide the products/services requested by you;</li>
 <li>to manage completing of the services including, customer/user service and experience;</li>
 <li>Provide, operate, and maintain our website/app;</li>
-<li>to research, develop and improve, personalize <strong>vroomwheel.com</strong> products/services;</li>
+<li>to research, develop and improve, personalize <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> products/services;</li>
 <li>Develop new products, services, features, and functionality;</li>
-<li>to conduct surveys to determine use and satisfaction with <strong>vroomwheel.com</strong> products/services;</li>
-<li>to generate statistics in relation to <strong>vroomwheel.com;</strong>
+<li>to conduct surveys to determine use and satisfaction with <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> products/services;</li>
+<li>to generate statistics in relation to <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com;</strong></a>
 </li>
 <li>to promote and market special offers and other products/services to you. The Users may opt-out from receiving any email by Unsubscribing through clicking on the appropriate link;</li>
 <li>Find and prevent fraud;</li>
-<li>for purposes connected with the operation of <strong>vroomwheel.com;</strong>
+<li>for purposes connected with the operation of <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com;</strong></a>
 </li>
 </ul>
 <strong><br/><br/></strong>
 </li>
 <li>
 <strong>HOW IS PERSONAL INFORMATION DISCLOSED</strong>:<br/><br/>
-<p><strong>vroomwheel.com </strong>may disclose personal information include individual(s)/companies/associations/legal entity associated with<strong> vroomwheel.com</strong> directly/indirectly for rendering products/services listed on the platform/website/application or other products/services customized for the User. &nbsp;</p>
+<p><a href={"https://vroomwheel.com/"}><strong>vroomwheel.com </strong></a> may disclose personal information include individual(s)/companies/associations/legal entity associated with <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> directly/indirectly for rendering products/services listed on the platform/website/application or other products/services customized for the User. &nbsp;</p>
 <br/>
 </li>
 <li>
@@ -119,7 +123,7 @@ class privacy_police extends Component {
 </li>
 <li>
 <strong>WHEN USERS</strong><strong><strong> NOT INTERESTED TO PROVIDE INFORMATION:<br/><br/></strong></strong>
-<p>If you choose not to provide personal information when requested,<strong> vroomwheel.com</strong> may not be able to provide you with the full range of <strong>vroomwheel.com</strong> services and experience. <br/></p>
+<p>If you choose not to provide personal information when requested, <a href={"https://vroomwheel.com/"}><strong> vroomwheel.com</strong></a> may not be able to provide you with the full range of <a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> services and experience. <br/></p>
 <strong><br/></strong>
 </li>
 <li>
@@ -162,7 +166,7 @@ VroomWheel is not available for anyone below the age of 18 years as per Indian C
 </li>
 <li>
 <strong><u>ABOUT SECURITY AND PERSONAL INFORMATION</u></strong><strong><strong>:<br/><br/></strong></strong>
-<p><strong>vroomwheel.com</strong> takes reasonable steps to protect personal information collected from misuse, loss, unauthorized access, modifications or disclosure.</p>
+<p><a href={"https://vroomwheel.com/"}><strong>vroomwheel.com</strong></a> takes reasonable steps to protect personal information collected from misuse, loss, unauthorized access, modifications or disclosure.</p>
 <p>We view protection of Your privacy as a very important principle. We understand&nbsp;clearly that You and Your Personal Information is one of Our most important assets. We store and process Your Information including any sensitive financial information collected (as defined under the Information Technology Act, 2000), if any, on computers, servers that may be protected by physical as well as reasonable technological security measures and procedures in accordance with Information Technology Act 2000 and Rules there under. If You object to Your Information being transferred or used in this way, you may prefer not using the website/app.</p>
 <strong><br/><br/></strong>
 </li>
@@ -172,7 +176,7 @@ VroomWheel is not available for anyone below the age of 18 years as per Indian C
 <strong><br/><br/></strong>
 </li>
 <li>
-<strong><u>CONTACT DETAILS OF THE COMPANY</u></strong><strong>:<br/></strong><br/>If you have a grievance, problem, complaint, want to change your personal information or just wish to enquire about privacy please contact us at <strong>info@vroomwheel.com<br/></strong>
+<strong><u>CONTACT DETAILS OF THE COMPANY</u></strong><strong>:<br/></strong><br/>If you have a grievance, problem, complaint, want to change your personal information or just wish to enquire about privacy please contact us at <a href="mailto:info@vroomwheel.com"><strong>info@vroomwheel.com<br/></strong> </a>
 </li>
 </ol>
 <p><strong>Last updated on 9<sup>th</sup> June 2021</strong></p>

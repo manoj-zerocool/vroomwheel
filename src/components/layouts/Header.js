@@ -334,7 +334,7 @@ class Header extends NavHelper {
                                             <div className="col-md-3 mt-1">
                                                 <div className="logo">
                                                      <Link className="no_pop"  to="/"> 
-                                                     <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/logo5.webp"} className="img-fluid no_pop" alt="logo" style={{ width: "195px", height: "35px" }} />
+                                                     <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/Vroomwheel-Logo-H.webp"} className="img-fluid no_pop" alt="logo" style={{ width: "195px", height: "57px", marginTop:"-13px" }} />
                                                       </Link> 
                                                       </div>
                                             </div>
@@ -377,13 +377,13 @@ class Header extends NavHelper {
                                             <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild} style={{ fontFamily: "Futura Hv BT", fontWeight: "500" }}>
                                                 {item.child 
                                                 ? <Link style={{ color: "#2e054e", fontWeight: "500", fontSize: "15px" }} onClick={e => e.preventDefault()} to="#" > {item.linkText} <span className="arrow" /></Link> 
-                                                : item.linkText == 'Blog' ? <a style={{ color: "#2e054e", fontWeight: "500", fontSize: "15px" }} href={this.state.path_hwe_blog} className="text-theme fs-14"> {item.linkText} </a> 
+                                                : item.linkText == 'Blog' ? <a style={{ color: "#2e054e", fontWeight: "500", fontSize: "15px" }} href={this.state.path_hwe_blog} className="text-theme fs-14 no_pop"> {item.linkText} </a> 
                                                 : item.linkText == 'login' ? this.state.auth != 1 ?<Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "15px",  padding: "0px 0px", borderRadius: "5px",position: "relative" ,left: "9px"}} to={item.link} className="text-theme fs-14">Log in</Link>  : <Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "20px",  padding: "0px 0px", borderRadius: "5px",position: "relative" ,left: "9px"}} to={item.dashboard_link} className="text-theme fs-14"><i className="fas fa-car-alt" /></Link> 
                                                 : item.linkText == 'register' ? this.state.auth != 1 ? <Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "15px",  padding: "0px 0px", borderRadius: "5px" }} to={item.link}className="text-theme fs-14"></Link>  :<Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "15px",  padding: "0px 0px", borderRadius: "5px" }} to={item.logout_link}className="text-theme fs-14"><i className="fas fa-sign-out-alt" /></Link>
                                                 : <Link style={{ color: "#2e054e", fontWeight: "500", fontSize: "15px" }} to={item.link} className="text-theme fs-14"> {item.linkText} </Link>
                                                 }
                                                 {item.child ?
-                                                    <ul className="custom submenu top_right_submenu" role="menu" style={{ maxHeight: "300px", overflowY: "scroll", width: "350px", padding: "10px" }}>
+                                                    <ul className="custom submenu top_right_submenu" role="menu" style={{ maxHeight: "300px", overflowY: "scroll", overflowX: "clip", width: "350px", padding: "10px" }}>
                                                         <div className="row">
                                                             <div className="col-md-5">
                                                                 {this.state.city.map(city =>
@@ -433,7 +433,7 @@ class Header extends NavHelper {
                     <div className="topbar bg-theme" style={{ backgroundColor: "#fff", borderBottom: "1px solid #dbdbdb",display:"block" }}>
                         <div style={{ display: "flex", justifyContent: "space-between", padding: "13px" }}>
 
-                            <div className="col-sm-6 logo" style={{ paddingRight: "unset" }}> <Link to="/" className="no_pop" > <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/logo5.webp"} className="img-fluid logo_image_hwe" alt="logo" style={{ width: "195px", height: "35px", }} /> </Link>
+                            <div className="col-sm-6 logo" style={{ paddingRight: "unset" }}> <Link to="/" className="no_pop" > <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/Vroomwheel-Logo-H.webp"} className="img-fluid logo_image_hwe" alt="logo" style={{ width: "195px", height: "54px", position:"absolute", marginTop:"-8px",left:"0"}} /> </Link>
                             </div>
                             <div className="col-sm-5 p-0 pe-3">
                                 <form method="GET" action="/category" style={{ background: "#e2e9f5 none repeat ," }}>
@@ -453,14 +453,14 @@ class Header extends NavHelper {
                                                             <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild} style={{ fontFamily: "Futura Hv BT", fontWeight: "500" }}>
                                                                 {item.child 
                                                                 ? <Link onClick={(i) => this.submenu(i)} style={{ fontWeight: "900", fontSize: "15px"  ,color:"white !important", fontFamily: "Futura Lt BT",background: "rgb(46, 5, 78)",padding:"12px", color:"white"}} to="#" > {item.linkText} <span className="arrow" /></Link> 
-                                                                : item.linkText == 'Blog' ? <a style={{ color: "#2e054e", fontWeight: "900", fontSize: "15px" }} href={this.state.path_hwe_blog} className="text-theme fs-14"> {item.linkText} </a>
+                                                                : item.linkText == 'Blog' ? <a style={{ color: "#2e054e", fontWeight: "900", fontSize: "15px" }} href={this.state.path_hwe_blog} className="text-theme fs-14 no_pop"> {item.linkText} </a>
                                                                 : item.linkText == 'login' ? this.state.auth != 1 ?<Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "15px",  padding: "0px 0px", borderRadius: "5px",position: "relative" ,left: "9px"}} to={item.link} className="text-theme fs-14">Sign In</Link>  : <Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "20px",  padding: "0px 0px", borderRadius: "5px",position: "relative" ,left: "0px"}} to={item.dashboard_link} className="text-theme fs-14"><i className="fas fa-car-alt" /></Link> 
                                                                 : item.linkText == 'register' ? this.state.auth != 1 ? <Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "15px",  padding: "0px 0px", borderRadius: "5px" }} to={item.link}className="text-theme fs-14">/ Sign Up</Link>  : <Link style={{ color: "#2e054e", fontWeight: "700", fontSize: "20px",  padding: "0px 0px", borderRadius: "5px" }} to={item.logout_link}className="text-theme fs-14"><i className="fas fa-sign-out-alt" /></Link> 
                                                                  : <Link style={{ color: "#2e054e", fontWeight: "900", fontSize: "15px" }} to={item.link} className="text-theme fs-14"> {item.linkText} </Link>}
                                                             {/* {item.child ? <Link style={{ color: "#2e054e", fontWeight: "500", fontSize: "15px" }} onClick={e => e.preventDefault()} to="#" > {item.linkText} <span className="arrow" /></Link> : item.linkText == 'Blog' ? <a style={{ color: "#2e054e", fontWeight: "500", fontSize: "15px" }} href={item.link} className="text-theme fs-14"> {item.linkText} </a>: <Link style={{ color: "#2e054e", fontWeight: "500", fontSize: "15px" }} to={item.link} className="text-theme fs-14"> {item.linkText} </Link>} */}
 
                                                                 {item.child ?                                                                    
-                                                                    <ul className={`custom submenu top_right_submenu top_right_submenu_mobile {city.id}`} role="menu" style={{ maxHeight: "300px", overflowY: "scroll", scrollbarWidth: "none", width: "350px", padding: "10px" }}>
+                                                                    <ul className={`custom submenu top_right_submenu top_right_submenu_mobile {city.id}`} role="menu" style={{ maxHeight: "300px", overflowY: "scroll", overflowX: "clip", scrollbarWidth: "none", width: "350px", padding: "10px" }}>
                                                                         <div className="row">
                                                                             <div className="col-sm-5">
                                                                                 {this.state.city.map(city =>

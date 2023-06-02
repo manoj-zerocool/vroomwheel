@@ -61,7 +61,7 @@ class Banner extends Component {
             border: "none",
             borderRadius: "5px",
             padding: "11px 40px",
-            fontFamily: "Futura Md BT",
+            fontFamily: "'Futura Md BT', sans-serif",
             display: "none"
         };
 

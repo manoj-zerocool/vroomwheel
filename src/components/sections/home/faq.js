@@ -81,7 +81,7 @@ class Content extends Component {
                                         </Accordion.Collapse>
                                         <Card.Header>
                                             <Accordion.Toggle as={Button} variant="link" eventKey={1 + 1} style={{ textAlign: "left", background: "none", color: "#371056", fontWeight: "600", fontSize: "14px" }}>
-                                                Where can one buy used cars online in {this.state.city}?
+                                                Where can one buy used cars online in india?
                                             </Accordion.Toggle>
                                         </Card.Header>
                                     </Card>
@@ -93,7 +93,7 @@ class Content extends Component {
                                         </Accordion.Collapse>
                                         <Card.Header>
                                             <Accordion.Toggle as={Button} variant="link" eventKey={1 + 2} style={{ textAlign: "left", background: "none", color: "#371056", fontWeight: "600", fontSize: "14px" }}>
-                                                Why should one use Vroom Wheel to search for used cars in {this.state.city}?
+                                                Why should one use Vroom Wheel to search for used cars in india?
                                             </Accordion.Toggle>
                                         </Card.Header>
                                     </Card>
