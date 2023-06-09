@@ -44,10 +44,25 @@ class Contacthelper extends Component {
         console.log("Captcha Successfully Loaded", value);
     }
     handleSubmit(e) {
-        
-  
         e.preventDefault();
-      
+
+        if(this.state.phone.length < 10 || this.state.phone.length > 10){
+
+            if(this.state.phone.length < 10){
+                this.setState({ message : 'Please enter 10 digits of number.'});
+                jquery('#server_response').addClass('alert-danger');
+                jquery("#server_response_parent").slideDown().delay(5000).slideUp();
+            }else if(this.state.phone.length > 10){  
+                this.setState({ message : 'Can`t ender more then 10 digits.'});
+                jquery('#server_response').addClass('alert-danger');
+                jquery("#server_response_parent").slideDown().delay(5000).slideUp();
+            }
+
+            return false;
+
+        }else{
+        jquery('#server_response').removeClass('alert-danger');
+        
         // eslint-disable-next-line no-restricted-globals
         fetch(CONSTANT.BaseUrl + '/services/contact_insert', {
             method: "POST",
@@ -82,6 +97,7 @@ class Contacthelper extends Component {
                 // document.getElementById("server_response_danger").classList.add("d-block");
             }
         })
+        }
     }
     resetForm() {
         this.setState({ name: "", phone: "", email: "", subject: "", message1: "",  })

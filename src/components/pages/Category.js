@@ -24,6 +24,7 @@ class Carsleft extends Component {
         super(props);
         this.state = {
             title: "",
+            title: "",
             meta_desc: "",
             site_href: "",
         };
@@ -58,11 +59,12 @@ class Carsleft extends Component {
                          sql_make_name = make_name_get.split("-cars")[0].replaceAll("-"," ");
         
                 }else if(make_name_get.indexOf("cars") >=0){
+                  //  alert(city_name);
                      sql_make_name = city_name;
                     }
                     else{
         
-                         sql_make_name = city_name;
+                         sql_make_name =city_name;
                     }
         
                   
@@ -86,11 +88,10 @@ class Carsleft extends Component {
                 this.setState({ meta_desc: response.result[0]['Meta Description'].replaceAll("what_city_name",city_name).replaceAll("bugdet_int_one",first_int).replaceAll("bugdet_int_two",second_int) })
                 this.setState({ title: response.result[0]['Title'].replaceAll("what_city_name",city_name).replaceAll("bugdet_int_one",first_int).replaceAll("bugdet_int_two",second_int) })
                 // alert(this.state.meta_desc);
-               
-
             })
             .catch((error) => {
             });
+
     }
     render() {
         return (
@@ -104,6 +105,7 @@ class Carsleft extends Component {
                         content={this.state.meta_desc} />
                 </MetaTags>
                 <Header />
+                <h1></h1>
                 {/* <Breadcrumbs breadcrumb={{ pagename: pagelocation }} /> */}
                 <Content />
                 <Footer />

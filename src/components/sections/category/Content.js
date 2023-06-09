@@ -381,11 +381,12 @@ class Content extends Component {
                    var  selected_total_checkbox = $(this).parent().parent().parent().find('> .model > label >  input.modelcheckval:checked').length; 
                     var make_val = $(this).val();
                     var makeattr = $(this).attr('make_type');
+
                     if(selected_total_checkbox == total_checkbox_hwe){
                     makeval[make_val] = { 'id': make_val, name: makeattr };
                     }
                 });
-    
+   
                 this.setState({ make: makeval })
 
                 var modelval = [];
@@ -659,9 +660,13 @@ if('rumble_scroll' == body_class_type){
     var scrollHeight = $(document).height() - $(".hwefeature").height() - $(".footer").height();
     var top_position = $(window).scrollTop();
     if((top_position >= 101)){
-    $('.desktop_sidebar').css('margin-top','-70px');
+        $('.desktop_sidebar').addClass('up');
+
     }else{
-        $('.desktop_sidebar').css('margin-top','0px');
+       
+        $('.desktop_sidebar').removeClass('up');
+
+
     
     }
     if((top_position >= 101) && (this.state.make.length > 0 || this.state.model.length > 0 || this.state.fuel.length > 0 || this.state.fyear != '' || this.state.kmdriven!= '' || this.state.price!= '' || this.state.owner != '')){
@@ -688,20 +693,13 @@ if('rumble_scroll' == body_class_type){
     }
     $('#sticky_nav_cat,.mobilefilter_hwe').addClass(class_name_hwe);
             if (this.state.limit < this.state.total_cars) {
-              
-    
-    
                 var lastPos = 0;
                 var lastPos = 0;
-                
-                
-             
                 var scrollPos = $(window).height() + $(window).scrollTop();
                 // console.log("feature" + $(".hwefeature").height());
                 // console.log("height" + scrollHeight);
                 // console.log("post" + scrollPos);
                 // console.log("catlist" + $(".cat_list").height())
-               
                 if (((scrollHeight - 800) >= scrollPos) / scrollHeight <= 10) {
                     //$('.fluidhwe').addClass("fluidhwe_blur");
                    //$(".loader").show();
@@ -713,7 +711,7 @@ if('rumble_scroll' == body_class_type){
                 }
            
             }
-}
+} 
 }
 
 
@@ -1677,7 +1675,7 @@ $('.filter_save').trigger('click');
                     <div className="container-fluid fluidhwe" style={{ padding: "0rem 0rem 0rem 3rem" }}>
                         <div className="row">
                             {isMobile ? null :
-                                <aside className="col-lg-3 desktop_sidebar" style={{ position: "fixed", zIndex: "99999999" }}>
+                                <aside className="col-lg-3 desktop_sidebar " style={{ position: "fixed", zIndex: "99999999" }}>
                                     <div className="sidebar_wrap mb-md-80">
                                         <div id="side_bar" className="sidebar" style={{ maxHeight: "100vh", overflowY: "scroll", scrollbarWidth: "thin" }}>
                                             <div className="sidebar_widgets">
@@ -1985,13 +1983,13 @@ $('.filter_save').trigger('click');
                                                                 behaviour="drag"
                                                                 range={{
                                                                     'min': [50000, 50000],
-                                                                    '20%': [300000, 100000],
-                                                                    '32%': [500000, 200000],
-                                                                    '38%': [700000, 300000],
+                                                                    '22%': [300000, 100000],
+                                                                    '30%': [500000, 200000],
+                                                                    '36%': [700000, 300000],
                                                                     '42%': [1000000, 500000],
-                                                                    '55%': [2000000, 1000000],
-                                                                    '65%': [5000000, 5000000],
-                                                                    '70%': [10000000, 10000000],
+                                                                    '60%': [2000000, 1000000],
+                                                                    '76%': [5000000, 5000000],
+                                                                    '80%': [10000000, 10000000],
                                                                     'max': [50000000]
                                                                 }}
                                                                 onSlide={this.onSlide}

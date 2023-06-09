@@ -85,6 +85,8 @@
     right: 27px;
     top: 5px;
     font-size: 33px;
+    z-index: 99999;
+margin-right: -21px;
     }
 .menu-item-has-children .submenu>.menu-item>a:hover {
     background: none;
@@ -391,7 +393,7 @@ ol li {
     }
 
     .section-heading {
-        padding-top: 32px;
+        padding-top: 0px;
     }
 
     .slick-dots {
@@ -471,7 +473,7 @@ ol li {
       }
 
       a.btn-first.btn-small.view_all_cars.mb-3 {
-          width: 32% !important;
+          width: 38% !important;
           background: rgb(255, 0, 0);
           color: rgb(255, 255, 255);
           font-weight: 700;
@@ -479,7 +481,7 @@ ol li {
           border-radius: 5px;
           padding: 8px 0px !important;
           font-family: Futura Md BT;
-          font-size: 9PX !important;
+          font-size: 14px !important;
         
         margin-left: unset !important;
     }

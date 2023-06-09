@@ -38,14 +38,14 @@ class Category extends Component {
             border: "none",
             borderRadius: "5px",
             padding: "15px 60px",
-            fontFamily: "Futura Md BT"
+            fontFamily: "'Futura Md BT', sans-serif"
         };
         return (
             <section className="section-padding our-work-sec bg-light-white custome_mr pb-2">
                 <div className="container">
                     <div className="section-header text-center">
                         <div className="section-heading">
-                            <Link to={`/used-cars-in-${this.state.cityname}`} className="btn-first btn-small view_all mb-3" target={'_blank'} style={mystyle}>View All Cars</Link>
+                            <Link to={`/used-cars-in-${this.state.cityname}`} className="btn-first btn-small view_all mb-3" style={mystyle}>View All Cars</Link>
                             <h3 className="text-custom-black" style={{ color: "#2e054e" }}>Search by City</h3>
                         </div>
                     </div>
@@ -74,25 +74,25 @@ class Category extends Component {
                                     </Link> </div>
                                 </div>
                                 <div className="col-sm-4">
-                                    <div className="work-sec animate-img" style={{ borderRadius: "20px" }}> <Link to="used-cars-in-jaipur" className="cityname no_pop"> <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/city/4.webp"} style={{ height: "250px", width: "100%" }} alt="img" />
+                                    <div className="work-sec animate-img" style={{ borderRadius: "20px" }}> <Link to="used-cars-in-kolkata" className="cityname no_pop"> <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/city/4.webp"} style={{ height: "250px", width: "100%" }} alt="img" />
                                         <div className="text-wrapper text-center">
-                                            <h6 className="text-custom-white no-margin fw-600 cityname">Jaipur</h6>
+                                            <h6 className="text-custom-white no-margin fw-600 cityname">Kolkata</h6>
                                         </div>
                                     </Link> </div>
                                 </div>
                                 <div className="col-sm-4">
-                                    <div className="work-sec animate-img" style={{ borderRadius: "20px" }}> <Link to="used-cars-in-pune" className="cityname no_pop"> <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/city/5.webp"} style={{ height: "250px", width: "100%" }} alt="img" />
+                                    <div className="work-sec animate-img" style={{ borderRadius: "20px" }}> <Link to="used-cars-in-hyderabad" className="cityname no_pop"> <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/city/5.webp"} style={{ height: "250px", width: "100%" }} alt="img" />
                                         <div className="text-wrapper text-center">
-                                            <h6 className="text-custom-white no-margin fw-600 cityname">Pune</h6>
+                                            <h6 className="text-custom-white no-margin fw-600 cityname">Hyderabad</h6>
                                         </div>
                                     </Link> </div>
                                 </div>
                                 <div className="col-sm-4">
-                                    <div className="work-sec animate-img" style={{ borderRadius: "20px" }}> <Link to="/used-cars-in-india" className="cityname no_pop" data-id='all' data-name='All India'> <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/city/6.webp"} style={{ height: "250px", width: "100%" }} alt="img" />
+                                    <div className="work-sec animate-img" style={{ borderRadius: "20px" }}> <Link to="/used-cars-in-chennai " className="cityname no_pop" data-id='all' data-name='All India'> <img  loading="lazy" src={process.env.PUBLIC_URL + "/assets/images/city/6.webp"} style={{ height: "250px", width: "100%" }} alt="img" />
                                         <div className="text-wrapper text-center">
-                                            <h5 className="text-custom-white no-margin fw-600 cityname">All India</h5>
+                                            <h5 className="text-custom-white no-margin fw-600 cityname">Chennai</h5>
                                         </div>
-                                    </Link> </div>
+                                    </Link></div>
                                 </div>
                             </div>
                         </div>
