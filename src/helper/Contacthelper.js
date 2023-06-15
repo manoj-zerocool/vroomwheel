@@ -9,6 +9,7 @@ class Contacthelper extends Component {
             phone: '',
             email: '',
             subject: '',
+            mess: '',
             message: '',
             isVerified: false
 
@@ -34,8 +35,8 @@ class Contacthelper extends Component {
     onSubjectChange(event) {
         this.setState({ subject: event.target.value })
     }
-    onMessage1Change(event) {
-        this.setState({ message: event.target.value })
+    onMess1Change(event) {
+        this.setState({ mess: event.target.value })
         // console.log("mmmmmmm",message);
      
     }
@@ -100,7 +101,7 @@ class Contacthelper extends Component {
         }
     }
     resetForm() {
-        this.setState({ name: "", phone: "", email: "", subject: "", message1: "",  })
+        this.setState({ name: "", phone: "", email: "", subject: "", mess: "",  })
     }
     render() {
         return (

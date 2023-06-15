@@ -54,7 +54,7 @@ class Content extends Contacthelper {
                                         </div>
                                         <div className="col-md-12">
                                             <div className="form-group">
-                                                <textarea name="message1" value={this.state.message1} onChange={this.onMessage1Change.bind(this)} rows={5} className="form-control form-control-custom" placeholder="Message" required />
+                                                <textarea name="mess" value={this.state.mess} onChange={this.onMessChange.bind(this)} rows={5} className="form-control form-control-custom" placeholder="Message" required />
                                             </div>
                                          
                                             <button type="submit" className="btn-first btn-submit">Submit</button>

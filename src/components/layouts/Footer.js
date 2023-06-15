@@ -16,7 +16,7 @@ class Footer extends NavHelper {
         var protocal =window.location.protocol;
         var hostname_hwe = window.location.host;
 var hostname = hostname_hwe.replace('www.','');
-        if(hostname == 'localhost:3000'){
+if(hostname == 'localhost:3000' || hostname == 'dev59.vroomwheel.com'){
             
              this.setState({ path_hwe_blog: protocal+"//blog.vroomwheel.com" });
         }else{

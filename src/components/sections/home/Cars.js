@@ -85,7 +85,7 @@ class Cars extends Component {
                 <div className="container-fluid cars_component" style={container_style}>
                     <div className="section-header text-center">
                         <div className="section-heading cars_button">
-                            <h3 className="text-custom-black" style={{ color: "#2e054e" }}>Featured <span className="text-custom-blue">Cars</span></h3>
+                            <h2 className="text-custom-black" style={{ color: "#2e054e" }}>Featured <span className="text-custom-blue">Cars</span></h2>
                         </div>
                     </div>
                     <div className="section-header text-center featured_hwe">
