@@ -147,7 +147,8 @@ class Content extends Component {
 
         const search = window.location.search;
         const search1 = window.location.pathname;
-        localStorage.setItem('selected_city', search1.split('-in-')[1]);
+        const city_validation = search1.split('-in-')[1];
+        localStorage.setItem('selected_city', city_validation.replace('/',''));
         var car_min_price ="" ;
         var car_max_price = "";
         var makequerystring = "";
@@ -552,7 +553,7 @@ class Content extends Component {
                 
             }else{
                 localStorage.setItem('city_id', 'all');
-                localStorage.setItem('selected_city', city_get_hwe);
+                localStorage.setItem('selected_city', city_get_hwe.replace('/',''));
             }
             
             // alert("Please Select City");
@@ -570,7 +571,9 @@ class Content extends Component {
         }
         else if (this.state.changepara == 1) {
             var filter = this.state.formvalue;
+
         }
+
         const d = new Date();
         let time = d.getTime();
         // alert(time);
@@ -1948,7 +1951,7 @@ $('.filter_save').trigger('click');
                 <section className="section-padding partners hwefeature pt-5 pb-0" style={{ position: "relative", zIndex: "99999999999", background: "#f5f5f5" }}>
                     <Cars />
                     <Media />
-                    <FAQ />
+                    {/* <FAQ /> */}
                     <Details />
                 </section>
                 {isMobile ?
