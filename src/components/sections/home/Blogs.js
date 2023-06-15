@@ -74,7 +74,7 @@ class Blogs extends Component {
                 <div className="container-fluid" style={container_style}>
                     <div className="section-header text-center">
                         <div className="section-heading">
-                            <h3 className="text-custom-black" style={{ color: "#2e054e" }}>Popular <span className="text-custom-blue">Cars</span></h3>
+                            <h2 className="text-custom-black" style={{ color: "#2e054e" }}>Popular <span className="text-custom-blue">Cars</span></h2>
                         </div>
                     </div>
                     <div className="section-header text-center mediacovrage_hwe">

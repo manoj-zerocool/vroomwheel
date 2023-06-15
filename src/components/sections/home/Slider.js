@@ -97,7 +97,7 @@ class Banner extends Component {
                                         <div className="row">
                                             <div className="col-lg-12 slider">
                                                 <div className="slider-content">
-                                                    <h1 className="text-custom-white" style={{ fontFamily: "Futura Hv BT" }} dangerouslySetInnerHTML={{ __html: item.title }} />
+                                                    <h2 className="text-custom-white" style={{ fontFamily: "Futura Hv BT" }} dangerouslySetInnerHTML={{ __html: item.title }} />
                                                     <ul className="custom">
                                                         {item.list.map((item, i) => (
                                                             <li className="text-custom-white icontext" key={i}>

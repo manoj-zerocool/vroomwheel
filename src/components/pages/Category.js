@@ -51,7 +51,10 @@ class Carsleft extends Component {
         var second_int =null;
                 const search1_hwer = window.location.pathname;
                 var city_name = search1_hwer.split("in-")[1];
-                
+                if ((city_name.indexOf("/") >= 0)){
+                    var valid_path= window.location.protocol+'//'+window.location.host+''+search1_hwer.slice(0, search1_hwer.lastIndexOf('/'));
+                    window.location.replace(valid_path);
+                }
                  if ((search1_hwer.indexOf("used-") >= 0) && (search1_hwer.indexOf("under") <= 1 )  && (search1_hwer.indexOf("under-car") <= 1 )){
                 const make_name_get = search1_hwer.split("used-")[1];
                    
