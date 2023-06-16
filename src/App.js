@@ -49,7 +49,6 @@ if(hostname == 'localhost:3000'){
 }
 
   const blog_url = search1_hwer.split("/blogs/news");
-
   window.location.href  = path_hwe+'/'+blog_url[1];
 
   var Error =null;
@@ -73,6 +72,11 @@ if(hostname == 'localhost:3000'){
  
   window.location.href  = new_url;
   var Error =null;
+}else if (search1_hwer.indexOf("blog") >= 0 || search1_hwer.indexOf("blog") >= 0) {
+  var protocal =window.location.protocol;
+  var path_hwe = protocal+"//blog.vroomwheel.com";
+  // alert(path_hwe);
+ window.location.href  = path_hwe;
 }else if (search1_hwer.indexOf("lakhs") >= 0) {
   const blog_url1 = search1_hwer.split("-to-");
   var firstint = blog_url1[0].replace ( /[^\d.]/g, '' )*100000;
@@ -116,7 +120,7 @@ function App() {
             
             <Route exact path="/about" component={About} />
            
-            <Route exact path="/blog" component={Blog} />
+            {/* <Route exact path="/blog" component={Blog} /> */}
             
             <Route exact path="/used:id" component={Category} />
            

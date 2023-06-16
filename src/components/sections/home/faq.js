@@ -18,6 +18,13 @@ class Content extends Component {
             title: "Used Cars Online in India",
             desc: "As you all know, buying a car can be quite an expensive affair and many of us might not have the required budget to afford a brand-new car. So, what should you do? Well, you need not worry as we have got it all covered for you. We have an extraordinary range of pre-owned used cars in India available from some of the most reputed brands. Now you can compare with an xtraordinary range to buy used cars in India that you can search from our website. We offer you an excellent choice and value for your money on your used car purchase. We have cars available in various price ranges and you can pick the car that perfectly meets all your needs and requirement. You simply need to choose your favorite car and the car will be all yours in the shortest possible time.",
             bold_desc: "Searching cars in different websites and comparing them is not possible in general scenarios and will be hectic job so why do not use Vroomwheel !",
+        
+        
+         title_1: "Used Cars Online in India",
+            desc_1: "As you all know, buying a car can be quite an expensive affair and many of us might not have the required budget to afford a brand-new car. So, what should you do? Well, you need not worry as we have got it all covered for you. We have an extraordinary range of pre-owned used cars in India available from some of the most reputed brands. Now you can compare with an xtraordinary range to buy used cars in India that you can search from our website. We offer you an excellent choice and value for your money on your used car purchase. We have cars available in various price ranges and you can pick the car that perfectly meets all your needs and requirement. You simply need to choose your favorite car and the car will be all yours in the shortest possible time.",
+            // bold_desc: "Searching cars in different websites and comparing them is not possible in general scenarios and will be hectic job so why do not use Vroomwheel !",
+        
+        
         };
     }
     componentDidMount() {
