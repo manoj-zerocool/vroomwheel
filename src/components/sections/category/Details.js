@@ -10,7 +10,7 @@ import * as CONSTANT from '../../../Constent';
 
 const settings = {
     infinite: true,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
     dots: true,
@@ -120,27 +120,26 @@ class Details extends Component {
             <section className="section-padding bg-light-white faqs pt-0 pb-3">
             <div className="container cars_lest_details">
                 
-            <div className="row pb-5 text-center"  style={{justifyContent: "center"}} >
-                <h2>Testimonials</h2>
-                    <div className="col-6">
-                        <Slider className="carousel" {...settings}>
-                            {this.state.collection_content_testimonials?.map((collection_content_testimonials,index) => (
-                                <div key={1+index} className="slide-item col-12">
-                                    <div className="partner-box bx-wrapper animate-img text-center" style={{ color: "#2e054e", borderRadius: "10px", padding: "1rem" }}>
-                                        <h5><i class="fa fa-quote-left" style={{ color: "#2e054e" }}></i></h5>
-                                        <div dangerouslySetInnerHTML={{ __html:collection_content_testimonials.desc}} />
-                                        
-                                    </div>
-                                    {/* <div className="partner-box bx-wrapper animate-img mt-3">
-                                        <Link to="#"> <img  loading="lazy" src={process.env.PUBLIC_URL + "/" + item.img} className="img-fluid image-fit" alt="img" /> </Link>
-                                    </div> */}
+            
+                <div className="row pb-5">
+                    <div className="col-md-12">
+                        <div>
+                        {this.state.collection_content_title?.map(collection_content_title =>
+                            <div>
+                            <h5 className="pt-3" >{collection_content_title.title}</h5>
+                            <div dangerouslySetInnerHTML={{ __html:collection_content_title.desc}} /> 
                                 </div>
-                            ))}
-                        </Slider>
+                        )}
+                        </div>
                     </div>
                 </div>
+           
             <div className="row pb-5">
-                            <h6 className="d-none">1</h6>
+            <div className="text-center">
+                
+            <h4 class="mt-5" style={{ color: "#2e054e" }}>FAQ</h4>
+            </div>
+
                             <div className="col-lg-12 col-sm-10">
                                 <Accordion defaultActiveKey={1} className="custom-accordion mb-md-80 d-block customaccordionhwe">
                                     
@@ -162,19 +161,26 @@ class Details extends Component {
                                 </Accordion>
                             </div>
                         </div>
-                <div className="row pb-5">
-                    <div className="col-md-12">
-                        <div>
-                        {this.state.collection_content_title?.map(collection_content_title =>
-                            <div>
-                            <h5 className="pt-3" >{collection_content_title.title}</h5>
-                            <div dangerouslySetInnerHTML={{ __html:collection_content_title.desc}} /> 
+            <div className="row pb-5 text-center"  style={{justifyContent: "center"}} >
+                <h4 class="mt-5" style={{ color: "#2e054e" }}>Testimonials</h4>
+                    <div className="col-sm-12 ">
+                        <Slider className="carousel" {...settings}>
+                            {this.state.collection_content_testimonials?.map((collection_content_testimonials,index) => (
+                                <div key={1+index} className="slide-item col-12">
+                                    <div className="partner-box bx-wrapper animate-img text-center" style={{ color: "#2e054e", borderRadius: "10px", padding: "1rem" }}>
+                                        <h5><i class="fa fa-quote-left" style={{ color: "#2e054e" }}></i></h5>
+                                        <div dangerouslySetInnerHTML={{ __html:collection_content_testimonials.desc}} />
+                                        
+                                    </div>
+                                    {/* <div className="partner-box bx-wrapper animate-img mt-3">
+                                        <Link to="#"> <img  loading="lazy" src={process.env.PUBLIC_URL + "/" + item.img} className="img-fluid image-fit" alt="img" /> </Link>
+                                    </div> */}
                                 </div>
-                        )}
-                        </div>
+                            ))}
+                        </Slider>
                     </div>
                 </div>
-            </div>
+                </div>
         </section>
         );
     }

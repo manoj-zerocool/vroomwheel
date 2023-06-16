@@ -4,7 +4,7 @@ import Category from './Category';
 import Gallery from './Gallery';
 import Faq from './faq';
 import Brands from './Brands';
-import Details from "../category/Details";
+import Details from "./Details";
 
 class Content extends Component {
     render() {

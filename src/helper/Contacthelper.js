@@ -35,7 +35,7 @@ class Contacthelper extends Component {
     onSubjectChange(event) {
         this.setState({ subject: event.target.value })
     }
-    onMess1Change(event) {
+    onMessChange(event) {
         this.setState({ mess: event.target.value })
         // console.log("mmmmmmm",message);
      
